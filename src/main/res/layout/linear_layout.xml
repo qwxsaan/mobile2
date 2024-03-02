@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/SlateBlue"
+        android:text="@string/naming"
+        android:textColor="@color/white"
+        android:textSize="@dimen/big"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/afisha"
+        android:textSize="@dimen/standart"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:hint="Выберите кинотеатр"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Мастер и Маргарита - 18.30"
+        android:textSize="@dimen/standart"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/kupit"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Джентльмены - 15.45"
+        android:textSize="@dimen/standart"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/kupit"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Достать ножи - 16.15"
+        android:textSize="@dimen/standart"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/kupit"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Бойцовский клуб - 12.45"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/kupit"/>
+
+    <TextView
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Внимание! При посещении некоторых фильмов с возрастным ограничением понадобится документ, удостоверяющий личность "
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/coronacine"/>
+
+
+</LinearLayout>

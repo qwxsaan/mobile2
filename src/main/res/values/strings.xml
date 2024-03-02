@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="kupit">Купить билет</string>
+    <string name="naming">СЕТЬ КИНОТЕАТРОВ СИНКОМ</string>
+    <string name="afisha">Афиша сеансов</string>
+    <string name="typebilet">Выберите тип билета</string>
+    <string name="kolvo">Укажите количество билетов</string>
+    <string name="zakaz">Оформление заказа</string>
+    <string name="email">Адрес электронной почты</string>
+
+</resources>
